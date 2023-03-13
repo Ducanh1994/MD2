@@ -68,9 +68,10 @@ function showMenuPerson(family: Family) {
                 addPerson(family);
                 break;
             case 2:
-                showPeople(family)
+                showPeople(family);
                 break;
             case 3:
+                searchPerson();
                 break;
         }
     } while (choice !== 0);

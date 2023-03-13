@@ -10,7 +10,7 @@ do {
         console.log(chalk.green('Thành công !'))
         flag = true;
     } else {
-        console.log(chalk.yellow('Nhập lại !'))
+        console.log(chalk.red('Nhập lại !'))
         flag = false;
     }
 } while (!flag)
